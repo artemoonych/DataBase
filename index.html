@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>DataBase</title>
+</head>
+<body>
+    <script>
+
+        class User {
+            constructor(id, name, email, characteristicId) {
+            this.id = id;
+            this.name = name;
+            this.email = email;
+            this.characteristicId = characteristicId;
+            }
+        }
+
+        class Characteristics {
+            constructor(id, scientific_activity, teamwork, project_management, programming, design, modeling, animation, management, docs_id) {
+                this.id = id;
+                this.scientific_activity = scientific_activity;
+                this.teamwork = teamwork;
+                this.project_management = project_management;
+                this.programming = programming;
+                this.design = design;
+                this.modeling = modeling;
+                this.animation = animation;
+                this.management = management;
+                this.docs_id = docs_id;
+            }
+        }
+
+        class Document {
+            constructor(id, pdf_docs, word_docs, pictures) {
+                this.id = id;
+                this.pdf_docs = pdf_docs;
+                this.word_docs = word_docs;
+                this.pictures = pictures;
+            }
+        }
+    </script>
+</body>
+</html>
